@@ -264,6 +264,7 @@ button:active{
 
 .highlight__wrapper{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight{
@@ -272,7 +273,6 @@ button:active{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -297,6 +297,7 @@ button:active{
 .hightlight__subtitle{
     font-size: 20px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 /* FEATURES */
@@ -396,7 +397,6 @@ footer{
 
 /* RESPONSIVE */
 
-/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 768px) {
     .header__description {
       padding: 0 24px;
@@ -419,8 +419,6 @@ footer{
     }
   }
   
-  
-  /* SMALL PHONES, LARGE SMARTPHONES */
   @media (max-width: 550px) {
     .btn__menu {
       display: block;
